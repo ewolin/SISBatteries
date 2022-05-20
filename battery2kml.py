@@ -1,14 +1,6 @@
 #!/usr/bin/env python
 # make KML of battery ages
-# To get data:
-# search Current Equipment in SIS, 
-# Equipment Category: Battery
-# Is Currently Installed: Yes
-# in columns to display: add Epoch On Date
-# sort by Epoch On Date
-# download CSV file
-# link below may work, but no guarantees
-#https://anss-sis.scsn.org/sis/equipment/current/?catgids=31&istemplate=0&operatorids=1&isinstalled=1&o1=ondate&o1ad=a&o2ad=a&o3ad=a&o4ad=a&o5ad=a&displaycols=category&displaycols=manufacturer&displaycols=modelname&displaycols=serialnumber&displaycols=ondate&displaycols=inventory&displaycols=operatorcode&displaycols=project&displaycols=ownercode&displaycols=propertytag&displaycols=epochnotes&displaycols=isinstalled&displaycols=netcode&displaycols=lookupcode&displaycols=monname
+
 
 
 
@@ -110,7 +102,7 @@ outfile.close()
 #############
 # Read KML file containing list of N4 stations
 # did we have to edit this header like we did for the RT kml? don't remember.
-kml_file = 'N4_2020-09.kml'
+kml_file = 'kml/N4_2020-09.kml'
 myfile = open(kml_file, 'r')
 kmldoc = myfile.read()
 k = kml.KML()
@@ -132,7 +124,7 @@ doc_new.append(f_new)
 f_old = kml.Folder(name='BattsOld')
 doc_new.append(f_old)
 netname = kml_file.split('_')[0]
-doc_new.name=f'{netname}_battery_age'
+doc_new.name=f'kml/{netname}_battery_age'
 #############
 
 

@@ -1,0 +1,2968 @@
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>N4_battery_age</name>
+    <visibility>1</visibility>
+    <Style id="red">
+      <IconStyle>
+        <color>7f0000ff</color>
+        <scale>2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="orange">
+      <IconStyle>
+        <color>7f0080ff</color>
+        <scale>2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="yellow">
+      <IconStyle>
+        <color>7f00ffff</color>
+        <scale>2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="green">
+      <IconStyle>
+        <color>7f00ff00</color>
+        <scale>2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="purple">
+      <IconStyle>
+        <color>7fff00ff</color>
+        <scale>2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="white">
+      <IconStyle>
+        <color>7fffffff</color>
+        <scale>2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>BattsOK</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>N4.060A</name>
+        <description>Battery age: 3.3 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.060A&lt;/h2&gt;                       Battery age: 3.3 yr &lt;br&gt;                        Batteries installed: 2019-02-08 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=060A'&gt;SIS page for N4 060A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-80.361800,27.036100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.061Z</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.061Z&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-02-22 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=061Z'&gt;SIS page for N4 061Z&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-80.907000,25.865700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.143B</name>
+        <description>Battery age: 2.7 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.143B&lt;/h2&gt;                       Battery age: 2.7 yr &lt;br&gt;                        Batteries installed: 2019-09-24 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=143B'&gt;SIS page for N4 143B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-91.403600,32.703200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.146B</name>
+        <description>Battery age: 2.7 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.146B&lt;/h2&gt;                       Battery age: 2.7 yr &lt;br&gt;                        Batteries installed: 2019-09-24 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=146B'&gt;SIS page for N4 146B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-89.057300,32.636800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.152A</name>
+        <description>Battery age: 0.3 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.152A&lt;/h2&gt;                       Battery age: 0.3 yr &lt;br&gt;                        Batteries installed: 2022-01-25 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=152A'&gt;SIS page for N4 152A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.718800,32.668600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.154A</name>
+        <description>Battery age: 1.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.154A&lt;/h2&gt;                       Battery age: 1.0 yr &lt;br&gt;                        Batteries installed: 2021-06-02 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=154A'&gt;SIS page for N4 154A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-83.106600,32.613100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.250A</name>
+        <description>Battery age: 1.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.250A&lt;/h2&gt;                       Battery age: 1.0 yr &lt;br&gt;                        Batteries installed: 2021-06-07 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=250A'&gt;SIS page for N4 250A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-86.267700,31.977800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.257A</name>
+        <description>Battery age: 0.3 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.257A&lt;/h2&gt;                       Battery age: 0.3 yr &lt;br&gt;                        Batteries installed: 2022-01-23 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=257A'&gt;SIS page for N4 257A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-81.026100,31.974600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.346B</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.346B&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-02-28 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=346B'&gt;SIS page for N4 346B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-89.464900,31.387600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.352A</name>
+        <description>Battery age: 2.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.352A&lt;/h2&gt;                       Battery age: 2.8 yr &lt;br&gt;                        Batteries installed: 2019-08-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=352A'&gt;SIS page for N4 352A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.927400,31.479300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.441B</name>
+        <description>Battery age: 4.3 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.441B&lt;/h2&gt;                       Battery age: 4.3 yr &lt;br&gt;                        Batteries installed: 2018-01-31 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=441B'&gt;SIS page for N4 441B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-93.189800,30.749800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.451A</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.451A&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-02-24 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=451A'&gt;SIS page for N4 451A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-85.746700,30.616000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.456A</name>
+        <description>Battery age: 1.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.456A&lt;/h2&gt;                       Battery age: 1.0 yr &lt;br&gt;                        Batteries installed: 2021-06-03 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=456A'&gt;SIS page for N4 456A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-82.022300,30.724800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.545B</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.545B&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-02-26 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=545B'&gt;SIS page for N4 545B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-90.489400,30.044100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.553A</name>
+        <description>Battery age: 2.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.553A&lt;/h2&gt;                       Battery age: 2.8 yr &lt;br&gt;                        Batteries installed: 2019-08-18 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=553A'&gt;SIS page for N4 553A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.431700,30.189000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.656A</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.656A&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-02-23 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=656A'&gt;SIS page for N4 656A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-82.534800,29.368900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.735B</name>
+        <description>Battery age: 1.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.735B&lt;/h2&gt;                       Battery age: 1.0 yr &lt;br&gt;                        Batteries installed: 2021-06-06 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=735B'&gt;SIS page for N4 735B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-97.808200,28.855300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.ABTX</name>
+        <description>Battery age: 1.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.ABTX&lt;/h2&gt;                       Battery age: 1.0 yr &lt;br&gt;                        Batteries installed: 2021-06-04 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=ABTX'&gt;SIS page for N4 ABTX&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-99.643100,32.623800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.BGNE</name>
+        <description>Battery age: 1.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.BGNE&lt;/h2&gt;                       Battery age: 1.1 yr &lt;br&gt;                        Batteries installed: 2021-04-02 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=BGNE'&gt;SIS page for N4 BGNE&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-98.150200,41.408300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.D62A</name>
+        <description>Battery age: 2.6 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.D62A&lt;/h2&gt;                       Battery age: 2.6 yr &lt;br&gt;                        Batteries installed: 2019-10-01 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=D62A'&gt;SIS page for N4 D62A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-69.050100,47.081900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.E28B</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.E28B&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-06-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=E28B'&gt;SIS page for N4 E28B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-100.693400,46.574800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.E46A</name>
+        <description>Battery age: 2.7 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.E46A&lt;/h2&gt;                       Battery age: 2.7 yr &lt;br&gt;                        Batteries installed: 2019-09-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=E46A'&gt;SIS page for N4 E46A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.306200,46.366500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.E62A</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.E62A&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-06-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=E62A'&gt;SIS page for N4 E62A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-69.522700,46.620100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.F42A</name>
+        <description>Battery age: 2.7 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.F42A&lt;/h2&gt;                       Battery age: 2.7 yr &lt;br&gt;                        Batteries installed: 2019-09-16 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=F42A'&gt;SIS page for N4 F42A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-88.134700,45.758700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.F64A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.F64A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-17 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=F64A'&gt;SIS page for N4 F64A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-68.349600,45.863300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.G40A</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.G40A&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-07-10 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=G40A'&gt;SIS page for N4 G40A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-90.200600,45.268398,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.G62A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.G62A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-16 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=G62A'&gt;SIS page for N4 G62A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-70.531900,45.218600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.G65A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.G65A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-18 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=G65A'&gt;SIS page for N4 G65A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-67.563200,45.200200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.H43A</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.H43A&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-07-11 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=H43A'&gt;SIS page for N4 H43A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-87.770400,44.469700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.H62A</name>
+        <description>Battery age: 3.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.H62A&lt;/h2&gt;                       Battery age: 3.0 yr &lt;br&gt;                        Batteries installed: 2019-06-03 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=H62A'&gt;SIS page for N4 H62A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-71.155899,44.574299,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.I40B</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.I40B&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-07-13 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=I40B'&gt;SIS page for N4 I40B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-90.617700,43.891600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.I42A</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.I42A&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-07-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=I42A'&gt;SIS page for N4 I42A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-88.913400,43.890800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.I49A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.I49A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-20 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=I49A'&gt;SIS page for N4 I49A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-82.824600,43.939999,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.I62A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.I62A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-18 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=I62A'&gt;SIS page for N4 I62A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-71.335900,43.874300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.I63A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.I63A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-16 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=I63A'&gt;SIS page for N4 I63A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-70.580900,44.050500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.J55A</name>
+        <description>Battery age: 2.6 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.J55A&lt;/h2&gt;                       Battery age: 2.6 yr &lt;br&gt;                        Batteries installed: 2019-09-26 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=J55A'&gt;SIS page for N4 J55A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-77.816700,43.265700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.J57A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.J57A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-22 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=J57A'&gt;SIS page for N4 J57A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-75.996800,43.409900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.J59A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.J59A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-21 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=J59A'&gt;SIS page for N4 J59A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-74.504097,43.464699,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.J61A</name>
+        <description>Battery age: 3.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.J61A&lt;/h2&gt;                       Battery age: 3.0 yr &lt;br&gt;                        Batteries installed: 2019-05-28 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=J61A'&gt;SIS page for N4 J61A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-72.553497,43.346199,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.K22A</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.K22A&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-06-14 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=K22A'&gt;SIS page for N4 K22A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-106.524000,42.650700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.K30B</name>
+        <description>Battery age: 1.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.K30B&lt;/h2&gt;                       Battery age: 1.1 yr &lt;br&gt;                        Batteries installed: 2021-04-03 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=K30B'&gt;SIS page for N4 K30B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-99.613100,42.674200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.K43A</name>
+        <description>Battery age: 0.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.K43A&lt;/h2&gt;                       Battery age: 0.8 yr &lt;br&gt;                        Batteries installed: 2021-07-14 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=K43A'&gt;SIS page for N4 K43A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-88.332000,42.704400,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.K57A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.K57A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-16 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=K57A'&gt;SIS page for N4 K57A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-76.516296,42.731300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.K62A</name>
+        <description>Battery age: 0.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.K62A&lt;/h2&gt;                       Battery age: 0.8 yr &lt;br&gt;                        Batteries installed: 2021-08-03 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=K62A'&gt;SIS page for N4 K62A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-72.234500,42.665100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.KMSC</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.KMSC&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-03-02 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=KMSC'&gt;SIS page for N4 KMSC&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-81.333298,35.141998,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.KSCO</name>
+        <description>Battery age: 1.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.KSCO&lt;/h2&gt;                       Battery age: 1.0 yr &lt;br&gt;                        Batteries installed: 2021-05-24 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=KSCO'&gt;SIS page for N4 KSCO&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-102.627300,39.011200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.L34B</name>
+        <description>Battery age: 1.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.L34B&lt;/h2&gt;                       Battery age: 1.1 yr &lt;br&gt;                        Batteries installed: 2021-04-02 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=L34B'&gt;SIS page for N4 L34B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-96.376200,41.966600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.L46A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.L46A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-15 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=L46A'&gt;SIS page for N4 L46A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-86.295500,42.012700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.L56A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.L56A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-18 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=L56A'&gt;SIS page for N4 L56A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-77.559100,42.136500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.L59A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.L59A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=L59A'&gt;SIS page for N4 L59A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-75.042600,42.190200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.L64A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.L64A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-11 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=L64A'&gt;SIS page for N4 L64A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-70.839100,41.935900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.M50A</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.M50A&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-20 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=M50A'&gt;SIS page for N4 M50A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-83.042801,41.403500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.M52A</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.M52A&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-22 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=M52A'&gt;SIS page for N4 M52A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-81.357002,41.540501,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.M57A</name>
+        <description>Battery age: 3.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.M57A&lt;/h2&gt;                       Battery age: 3.1 yr &lt;br&gt;                        Batteries installed: 2019-04-10 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=M57A'&gt;SIS page for N4 M57A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-77.128000,41.337200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.M63A</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.M63A&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-13 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=M63A'&gt;SIS page for N4 M63A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-72.046400,41.403800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.MSTX</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.MSTX&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-06-23 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=MSTX'&gt;SIS page for N4 MSTX&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-102.772400,33.969600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.N35B</name>
+        <description>Battery age: 1.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.N35B&lt;/h2&gt;                       Battery age: 1.1 yr &lt;br&gt;                        Batteries installed: 2021-04-01 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=N35B'&gt;SIS page for N4 N35B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-95.642400,40.861200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.N38B</name>
+        <description>Battery age: 3.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.N38B&lt;/h2&gt;                       Battery age: 3.5 yr &lt;br&gt;                        Batteries installed: 2018-11-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=N38B'&gt;SIS page for N4 N38B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-93.235000,40.793100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.N41A</name>
+        <description>Battery age: 3.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.N41A&lt;/h2&gt;                       Battery age: 3.5 yr &lt;br&gt;                        Batteries installed: 2018-11-10 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=N41A'&gt;SIS page for N4 N41A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-90.855200,40.707700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.N49A</name>
+        <description>Battery age: 3.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.N49A&lt;/h2&gt;                       Battery age: 3.1 yr &lt;br&gt;                        Batteries installed: 2019-05-02 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=N49A'&gt;SIS page for N4 N49A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.182503,40.922001,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.N51A</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.N51A&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-22 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=N51A'&gt;SIS page for N4 N51A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-82.374802,40.918301,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.N53A</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.N53A&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-23 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=N53A'&gt;SIS page for N4 N53A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-80.837700,40.806500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.N58A</name>
+        <description>Battery age: 3.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.N58A&lt;/h2&gt;                       Battery age: 3.1 yr &lt;br&gt;                        Batteries installed: 2019-04-09 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=N58A'&gt;SIS page for N4 N58A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-76.715800,40.839600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.N62A</name>
+        <description>Battery age: 4.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.N62A&lt;/h2&gt;                       Battery age: 4.5 yr &lt;br&gt;                        Batteries installed: 2017-12-04 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=N62A'&gt;SIS page for N4 N62A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-73.467700,40.931300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.O20A</name>
+        <description>Battery age: 1.6 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.O20A&lt;/h2&gt;                       Battery age: 1.6 yr &lt;br&gt;                        Batteries installed: 2020-10-17 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=O20A'&gt;SIS page for N4 O20A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-108.241600,40.134800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.O48B</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.O48B&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-03-24 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=O48B'&gt;SIS page for N4 O48B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-85.155300,40.257100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.O49A</name>
+        <description>Battery age: 3.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.O49A&lt;/h2&gt;                       Battery age: 3.1 yr &lt;br&gt;                        Batteries installed: 2019-05-02 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=O49A'&gt;SIS page for N4 O49A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.335300,40.188000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.O52A</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.O52A&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-26 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=O52A'&gt;SIS page for N4 O52A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-81.836100,40.115800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.O54A</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.O54A&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-24 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=O54A'&gt;SIS page for N4 O54A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-80.377800,40.182100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.P43A</name>
+        <description>Battery age: 2.4 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.P43A&lt;/h2&gt;                       Battery age: 2.4 yr &lt;br&gt;                        Batteries installed: 2019-12-15 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=P43A'&gt;SIS page for N4 P43A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-89.521300,39.640900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.P46A</name>
+        <description>Battery age: 0.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.P46A&lt;/h2&gt;                       Battery age: 0.8 yr &lt;br&gt;                        Batteries installed: 2021-08-08 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=P46A'&gt;SIS page for N4 P46A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-87.206700,39.617800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.P57A</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.P57A&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-05 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=P57A'&gt;SIS page for N4 P57A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-78.012600,39.483500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.P61A</name>
+        <description>Battery age: 0.4 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.P61A&lt;/h2&gt;                       Battery age: 0.4 yr &lt;br&gt;                        Batteries installed: 2021-12-15 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=P61A'&gt;SIS page for N4 P61A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-74.791900,39.673400,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Q51A</name>
+        <description>Battery age: 1.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Q51A&lt;/h2&gt;                       Battery age: 1.5 yr &lt;br&gt;                        Batteries installed: 2020-11-08 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Q51A'&gt;SIS page for N4 Q51A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-83.345600,39.026000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Q52A</name>
+        <description>Battery age: 1.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Q52A&lt;/h2&gt;                       Battery age: 1.5 yr &lt;br&gt;                        Batteries installed: 2020-11-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Q52A'&gt;SIS page for N4 Q52A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-82.266900,38.962200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Q56A</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Q56A&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-10 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Q56A'&gt;SIS page for N4 Q56A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-79.187100,39.040100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.R32B</name>
+        <description>Battery age: 1.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.R32B&lt;/h2&gt;                       Battery age: 1.1 yr &lt;br&gt;                        Batteries installed: 2021-03-30 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=R32B'&gt;SIS page for N4 R32B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-98.711100,38.422500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.R40B</name>
+        <description>Battery age: 2.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.R40B&lt;/h2&gt;                       Battery age: 2.9 yr &lt;br&gt;                        Batteries installed: 2019-06-14 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=R40B'&gt;SIS page for N4 R40B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-92.268400,38.290900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.R49A</name>
+        <description>Battery age: 1.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.R49A&lt;/h2&gt;                       Battery age: 1.0 yr &lt;br&gt;                        Batteries installed: 2021-05-23 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=R49A'&gt;SIS page for N4 R49A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-85.171400,38.291600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.R50A</name>
+        <description>Battery age: 3.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.R50A&lt;/h2&gt;                       Battery age: 3.1 yr &lt;br&gt;                        Batteries installed: 2019-04-02 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=R50A'&gt;SIS page for N4 R50A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.327400,38.281600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.R55A</name>
+        <description>Battery age: 3.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.R55A&lt;/h2&gt;                       Battery age: 3.0 yr &lt;br&gt;                        Batteries installed: 2019-05-10 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=R55A'&gt;SIS page for N4 R55A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-80.119500,38.282500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.R58B</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.R58B&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-01 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=R58B'&gt;SIS page for N4 R58B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-77.878700,37.963600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.R61A</name>
+        <description>Battery age: 0.4 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.R61A&lt;/h2&gt;                       Battery age: 0.4 yr &lt;br&gt;                        Batteries installed: 2021-12-18 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=R61A'&gt;SIS page for N4 R61A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-75.339000,38.330300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.S39B</name>
+        <description>Battery age: 2.4 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.S39B&lt;/h2&gt;                       Battery age: 2.4 yr &lt;br&gt;                        Batteries installed: 2019-12-16 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=S39B'&gt;SIS page for N4 S39B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-93.322600,37.690900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.S44A</name>
+        <description>Battery age: 2.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.S44A&lt;/h2&gt;                       Battery age: 2.9 yr &lt;br&gt;                        Batteries installed: 2019-06-15 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=S44A'&gt;SIS page for N4 S44A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-89.255100,37.693600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.S54A</name>
+        <description>Battery age: 3.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.S54A&lt;/h2&gt;                       Battery age: 3.0 yr &lt;br&gt;                        Batteries installed: 2019-05-07 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=S54A'&gt;SIS page for N4 S54A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-81.311400,37.799700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.S57A</name>
+        <description>Battery age: 0.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.S57A&lt;/h2&gt;                       Battery age: 0.1 yr &lt;br&gt;                        Batteries installed: 2022-04-03 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=S57A'&gt;SIS page for N4 S57A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-78.953600,37.760500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.S61A</name>
+        <description>Battery age: 0.4 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.S61A&lt;/h2&gt;                       Battery age: 0.4 yr &lt;br&gt;                        Batteries installed: 2021-12-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=S61A'&gt;SIS page for N4 S61A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-75.672700,37.680400,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.SPMN</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.SPMN&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-06-09 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=SPMN'&gt;SIS page for N4 SPMN&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-92.803700,45.224600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.SUSD</name>
+        <description>Battery age: 3.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.SUSD&lt;/h2&gt;                       Battery age: 3.8 yr &lt;br&gt;                        Batteries installed: 2018-08-15 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=SUSD'&gt;SIS page for N4 SUSD&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-98.955600,44.442900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.T35B</name>
+        <description>Battery age: 2.4 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.T35B&lt;/h2&gt;                       Battery age: 2.4 yr &lt;br&gt;                        Batteries installed: 2020-01-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=T35B'&gt;SIS page for N4 T35B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-96.511900,36.916200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.T42B</name>
+        <description>Battery age: 2.4 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.T42B&lt;/h2&gt;                       Battery age: 2.4 yr &lt;br&gt;                        Batteries installed: 2020-01-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=T42B'&gt;SIS page for N4 T42B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-91.092700,37.030100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.T47A</name>
+        <description>Battery age: 1.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.T47A&lt;/h2&gt;                       Battery age: 1.5 yr &lt;br&gt;                        Batteries installed: 2020-11-09 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=T47A'&gt;SIS page for N4 T47A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-87.105500,36.988100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.T50A</name>
+        <description>Battery age: 1.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.T50A&lt;/h2&gt;                       Battery age: 1.5 yr &lt;br&gt;                        Batteries installed: 2020-11-11 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=T50A'&gt;SIS page for N4 T50A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.838400,37.020400,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.T57A</name>
+        <description>Battery age: 0.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.T57A&lt;/h2&gt;                       Battery age: 0.8 yr &lt;br&gt;                        Batteries installed: 2021-07-23 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=T57A'&gt;SIS page for N4 T57A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-79.253800,36.998300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.T59A</name>
+        <description>Battery age: 0.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.T59A&lt;/h2&gt;                       Battery age: 0.8 yr &lt;br&gt;                        Batteries installed: 2021-07-24 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=T59A'&gt;SIS page for N4 T59A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-77.554100,36.971600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.TUL3</name>
+        <description>Battery age: 3.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.TUL3&lt;/h2&gt;                       Battery age: 3.2 yr &lt;br&gt;                        Batteries installed: 2019-03-03 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=TUL3'&gt;SIS page for N4 TUL3&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-95.791800,35.910500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.U38B</name>
+        <description>Battery age: 1.1 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.U38B&lt;/h2&gt;                       Battery age: 1.1 yr &lt;br&gt;                        Batteries installed: 2021-04-24 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=U38B'&gt;SIS page for N4 U38B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-94.385700,36.439400,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.U49A</name>
+        <description>Battery age: 1.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.U49A&lt;/h2&gt;                       Battery age: 1.5 yr &lt;br&gt;                        Batteries installed: 2020-11-10 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=U49A'&gt;SIS page for N4 U49A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-85.779602,36.512901,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.U54A</name>
+        <description>Battery age: 3.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.U54A&lt;/h2&gt;                       Battery age: 3.0 yr &lt;br&gt;                        Batteries installed: 2019-05-09 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=U54A'&gt;SIS page for N4 U54A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-81.820400,36.520900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.U56A</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.U56A&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-03-06 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=U56A'&gt;SIS page for N4 U56A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-80.382900,36.347200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.V48A</name>
+        <description>Battery age: 2.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.V48A&lt;/h2&gt;                       Battery age: 2.8 yr &lt;br&gt;                        Batteries installed: 2019-08-17 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=V48A'&gt;SIS page for N4 V48A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-86.821900,35.740000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.V55A</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.V55A&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-03-03 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=V55A'&gt;SIS page for N4 V55A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-81.214900,35.851800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.V58A</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.V58A&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-03-10 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=V58A'&gt;SIS page for N4 V58A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-79.115000,35.794000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.V61A</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.V61A&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-03-07 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=V61A'&gt;SIS page for N4 V61A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-76.577600,35.791200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.W57A</name>
+        <description>Battery age: 2.3 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.W57A&lt;/h2&gt;                       Battery age: 2.3 yr &lt;br&gt;                        Batteries installed: 2020-01-16 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=W57A'&gt;SIS page for N4 W57A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-79.992800,35.152900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.W59A</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.W59A&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-03-09 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=W59A'&gt;SIS page for N4 W59A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-78.443000,35.167300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.WHTX</name>
+        <description>Battery age: 1.0 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.WHTX&lt;/h2&gt;                       Battery age: 1.0 yr &lt;br&gt;                        Batteries installed: 2021-06-05 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=WHTX'&gt;SIS page for N4 WHTX&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-97.456100,31.991300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.X48A</name>
+        <description>Battery age: 2.3 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.X48A&lt;/h2&gt;                       Battery age: 2.3 yr &lt;br&gt;                        Batteries installed: 2020-01-17 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=X48A'&gt;SIS page for N4 X48A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-87.045200,34.451700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.X51A</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.X51A&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-06-08 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=X51A'&gt;SIS page for N4 X51A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.857400,34.565800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.X58A</name>
+        <description>Battery age: 0.2 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.X58A&lt;/h2&gt;                       Battery age: 0.2 yr &lt;br&gt;                        Batteries installed: 2022-03-08 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=X58A'&gt;SIS page for N4 X58A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-79.338800,34.554800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Y45B</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Y45B&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-07-01 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Y45B'&gt;SIS page for N4 Y45B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-89.543100,33.865600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Y49A</name>
+        <description>Battery age: 0.3 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Y49A&lt;/h2&gt;                       Battery age: 0.3 yr &lt;br&gt;                        Batteries installed: 2022-01-27 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Y49A'&gt;SIS page for N4 Y49A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-86.411900,33.857700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Y52A</name>
+        <description>Battery age: 0.3 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Y52A&lt;/h2&gt;                       Battery age: 0.3 yr &lt;br&gt;                        Batteries installed: 2022-01-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Y52A'&gt;SIS page for N4 Y52A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.062600,33.864000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Y57A</name>
+        <description>Battery age: 0.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Y57A&lt;/h2&gt;                       Battery age: 0.8 yr &lt;br&gt;                        Batteries installed: 2021-07-20 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Y57A'&gt;SIS page for N4 Y57A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-80.391500,34.017000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Y58A</name>
+        <description>Battery age: 0.8 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Y58A&lt;/h2&gt;                       Battery age: 0.8 yr &lt;br&gt;                        Batteries installed: 2021-07-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Y58A'&gt;SIS page for N4 Y58A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-79.666500,33.905700,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Y60A</name>
+        <description>Battery age: 2.7 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Y60A&lt;/h2&gt;                       Battery age: 2.7 yr &lt;br&gt;                        Batteries installed: 2019-08-21 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Y60A'&gt;SIS page for N4 Y60A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-78.216300,34.004600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Z35B</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Z35B&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Z35B'&gt;SIS page for N4 Z35B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-97.253000,33.330900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Z38B</name>
+        <description>Battery age: 0.5 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Z38B&lt;/h2&gt;                       Battery age: 0.5 yr &lt;br&gt;                        Batteries installed: 2021-11-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Z38B'&gt;SIS page for N4 Z38B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-94.985200,33.259900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Z47B</name>
+        <description>Battery age: 0.9 yr</description>
+        <visibility>0</visibility>
+        <styleUrl>green</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Z47B&lt;/h2&gt;                       Battery age: 0.9 yr &lt;br&gt;                        Batteries installed: 2021-07-02 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Z47B'&gt;SIS page for N4 Z47B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-88.069600,33.198900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>BattsOld</name>
+      <visibility>1</visibility>
+      <Placemark>
+        <name>N4.E38A</name>
+        <description>Battery age: 7.8 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.E38A&lt;/h2&gt;                       Battery age: 7.8 yr &lt;br&gt;                        Batteries installed: 2014-08-14 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=E38A'&gt;SIS page for N4 E38A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-91.554000,46.605800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.F33B</name>
+        <description>Battery age: 6.8 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>orange</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.F33B&lt;/h2&gt;                       Battery age: 6.8 yr &lt;br&gt;                        Batteries installed: 2015-08-01 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=F33B'&gt;SIS page for N4 F33B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-96.292900,45.839800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.I37B</name>
+        <description>Battery age: 7.0 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.I37B&lt;/h2&gt;                       Battery age: 7.0 yr &lt;br&gt;                        Batteries installed: 2015-05-09 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=I37B'&gt;SIS page for N4 I37B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-93.400300,44.014900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.I45A</name>
+        <description>Battery age: 7.9 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.I45A&lt;/h2&gt;                       Battery age: 7.9 yr &lt;br&gt;                        Batteries installed: 2014-07-14 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=I45A'&gt;SIS page for N4 I45A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-86.234800,44.036100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.J47A</name>
+        <description>Battery age: 7.9 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.J47A&lt;/h2&gt;                       Battery age: 7.9 yr &lt;br&gt;                        Batteries installed: 2014-06-23 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=J47A'&gt;SIS page for N4 J47A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-84.821400,43.238200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.K50A</name>
+        <description>Battery age: 7.8 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.K50A&lt;/h2&gt;                       Battery age: 7.8 yr &lt;br&gt;                        Batteries installed: 2014-07-23 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=K50A'&gt;SIS page for N4 K50A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-82.623100,42.774899,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.L40A</name>
+        <description>Battery age: 8.5 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.L40A&lt;/h2&gt;                       Battery age: 8.5 yr &lt;br&gt;                        Batteries installed: 2013-11-27 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=L40A'&gt;SIS page for N4 L40A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-91.221800,42.062800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.L42A</name>
+        <description>Battery age: 8.5 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.L42A&lt;/h2&gt;                       Battery age: 8.5 yr &lt;br&gt;                        Batteries installed: 2013-11-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=L42A'&gt;SIS page for N4 L42A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-89.667000,42.004000,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.L61B</name>
+        <description>Battery age: 999.0 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>white</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.L61B&lt;/h2&gt;                       Battery age: 999.0 yr &lt;br&gt;                        Batteries installed: Unknown &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=L61B'&gt;SIS page for N4 L61B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-72.680200,42.449800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.M44A</name>
+        <description>Battery age: 8.5 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.M44A&lt;/h2&gt;                       Battery age: 8.5 yr &lt;br&gt;                        Batteries installed: 2013-11-08 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=M44A'&gt;SIS page for N4 M44A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-88.043200,41.388200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.MDND</name>
+        <description>Battery age: 6.8 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>orange</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.MDND&lt;/h2&gt;                       Battery age: 6.8 yr &lt;br&gt;                        Batteries installed: 2015-08-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=MDND'&gt;SIS page for N4 MDND&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-99.602900,47.848100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.N47A</name>
+        <description>Battery age: 8.0 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.N47A&lt;/h2&gt;                       Battery age: 8.0 yr &lt;br&gt;                        Batteries installed: 2014-05-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=N47A'&gt;SIS page for N4 N47A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-85.694199,40.880100,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.P38B</name>
+        <description>Battery age: 6.8 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>orange</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.P38B&lt;/h2&gt;                       Battery age: 6.8 yr &lt;br&gt;                        Batteries installed: 2015-08-11 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=P38B'&gt;SIS page for N4 P38B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-93.532100,39.624800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.P40B</name>
+        <description>Battery age: 9.2 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.P40B&lt;/h2&gt;                       Battery age: 9.2 yr &lt;br&gt;                        Batteries installed: 2013-03-19 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=P40B'&gt;SIS page for N4 P40B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-92.048300,39.529800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.P48A</name>
+        <description>Battery age: 8.1 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.P48A&lt;/h2&gt;                       Battery age: 8.1 yr &lt;br&gt;                        Batteries installed: 2014-05-02 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=P48A'&gt;SIS page for N4 P48A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-85.425800,39.460500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.P53A</name>
+        <description>Battery age: 7.5 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.P53A&lt;/h2&gt;                       Battery age: 7.5 yr &lt;br&gt;                        Batteries installed: 2014-11-24 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=P53A'&gt;SIS page for N4 P53A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-81.389600,39.486800,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Q44B</name>
+        <description>Battery age: 8.3 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Q44B&lt;/h2&gt;                       Battery age: 8.3 yr &lt;br&gt;                        Batteries installed: 2014-02-16 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Q44B'&gt;SIS page for N4 Q44B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-89.016900,38.903300,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.Q54A</name>
+        <description>Battery age: 9.3 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.Q54A&lt;/h2&gt;                       Battery age: 9.3 yr &lt;br&gt;                        Batteries installed: 2013-01-28 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=Q54A'&gt;SIS page for N4 Q54A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-80.833800,38.983600,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.S51A</name>
+        <description>Battery age: 8.1 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.S51A&lt;/h2&gt;                       Battery age: 8.1 yr &lt;br&gt;                        Batteries installed: 2014-04-21 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=S51A'&gt;SIS page for N4 S51A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-83.593500,37.639200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.SFIN</name>
+        <description>Battery age: 6.8 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>orange</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.SFIN&lt;/h2&gt;                       Battery age: 6.8 yr &lt;br&gt;                        Batteries installed: 2015-07-22 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=SFIN'&gt;SIS page for N4 SFIN&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-87.096703,40.379002,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.T45B</name>
+        <description>Battery age: 8.3 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.T45B&lt;/h2&gt;                       Battery age: 8.3 yr &lt;br&gt;                        Batteries installed: 2014-02-12 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=T45B'&gt;SIS page for N4 T45B&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-88.645900,37.015900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.TIGA</name>
+        <description>Battery age: 6.8 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>orange</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.TIGA&lt;/h2&gt;                       Battery age: 6.8 yr &lt;br&gt;                        Batteries installed: 2015-07-17 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=TIGA'&gt;SIS page for N4 TIGA&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-83.589800,31.438900,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.V53A</name>
+        <description>Battery age: 8.2 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.V53A&lt;/h2&gt;                       Battery age: 8.2 yr &lt;br&gt;                        Batteries installed: 2014-03-14 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=V53A'&gt;SIS page for N4 V53A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-82.812400,35.669400,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.W50A</name>
+        <description>Battery age: 8.2 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.W50A&lt;/h2&gt;                       Battery age: 8.2 yr &lt;br&gt;                        Batteries installed: 2014-03-09 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=W50A'&gt;SIS page for N4 W50A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-85.311900,35.200200,0.000000</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>N4.W52A</name>
+        <description>Battery age: 8.2 yr</description>
+        <visibility>1</visibility>
+        <styleUrl>red</styleUrl>
+        <Style>
+          <BalloonStyle>
+            <textColor>ff000000</textColor>
+            <text>&lt;h2&gt; N4.W52A&lt;/h2&gt;                       Battery age: 8.2 yr &lt;br&gt;                        Batteries installed: 2014-03-11 &lt;br&gt;                       &lt;a href='https://anss-sis.scsn.org/sis/find/?lookup=W52A'&gt;SIS page for N4 W52A&lt;/a&gt;&lt;br&gt; &lt;table width ="200"&gt;&lt;tr&gt;&lt;h2&gt; &lt;/h2&gt;&lt;/tr&gt;&lt;/table&gt;</text>
+            <displayMode>default</displayMode>
+          </BalloonStyle>
+          <LabelStyle>
+            <color>white</color>
+            <scale>0.5</scale>
+          </LabelStyle>
+        </Style>
+        <Point>
+          <coordinates>-83.927700,35.093500,0.000000</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
