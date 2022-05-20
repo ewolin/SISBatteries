@@ -89,7 +89,8 @@ for i in doc.features():
 
 df = pd.read_csv('n4batts.csv', dtype={'lookupcode':'str'})
 #df = pd.read_csv('all_asl_batts.csv', dtype={'lookupcode':'str'})
-df ['ondate'] = pd.to_datetime(df['ondate'], format='%Y-%m-%d (%j) %H:%M:%S')
+#df ['ondate'] = pd.to_datetime(df['ondate'], format='%Y-%m-%d (%j) %H:%M:%S') # format for CSV downloaded from SIS search results page
+df ['ondate'] = pd.to_datetime(df['ondate'], format='%Y-%m-%dT%H:%M:%SZ') # format for results from SIS API without applying any date formatting
 df.sort_values(by='ondate')
 
 logfile = open('noinfo.txt', 'w')
@@ -122,10 +123,10 @@ for j in i.features():
     if battery_age_yr > 900:
         color='white'
         j.styleUrl = 'white'
-    elif battery_age_yr >= 6.5 and battery_age_yr < 900:
+    elif battery_age_yr >= 7 and battery_age_yr < 900:
         color='red'
         j.styleUrl = 'red'
-    elif battery_age_yr > 4 and battery_age_yr < 6.5:
+    elif battery_age_yr > 5 and battery_age_yr < 7:
         color='orange'
         j.styleUrl = 'orange'
     else:
