@@ -1,50 +1,32 @@
 #!/usr/bin/env python
-# make KML of battery ages
+# Use SIS API to get info on N4 battery installations
+# make KML showing battery ages
 
-
+import time
+import json
+import requests
+import configparser
 
 
 from fastkml import kml
 from fastkml import styles
+from io import StringIO
 
 import pandas as pd
-
 import datetime as dt
 
-import time
-import json
-import configparser
-import requests
-#from cryptography.fernet import Fernet
 
 
-#def load_key():
-#    """
-#    Loads the key from the current directory named `key.key`
-#    """
-#    return open("key.key", "rb").read()
-
-
-#authfile = open('sisauth.txt', 'rb')
-#enc = authfile.read()
-#authfile.close()
-#
-#key = load_key()
-#print(key)
-#f = Fernet(key)
-
-#dec = f.decrypt(enc).decode().split()
-#un = dec[0]
-#pw = dec[1]
-
+#############
+# Read config file with login info
 config = configparser.ConfigParser()
 config.read('config.ini')
 un =  config['RT']['user']
 pw =  config['RT']['pwd']
-
-
 payload = {'username': un,   
            'password': pw,}   # do not save this in the file, read it from a protected config file. 
+#############
+
 #############
 # Log into SIS
 sisinstance = 'sis' # will be "sis" in case of production 
@@ -59,10 +41,9 @@ token = r.json()['token']
 #############
 
 #############
-# Create and send request
+# Build and send request
 # Set the token in the request header
 auth_header = {"Authorization": "Bearer {0}".format(token),}
-
 params = {
     "category": 'Battery',
 #    "netcode":"US,NE,N4,IW",
@@ -85,7 +66,8 @@ print ('\n', r.text)
 # maybe we could write this to a StringIO like object instead of to disk? can figure out later, this works for now
 j = json.loads(r.text)
 
-outfile = open('n4batts.csv', 'w')
+#outfile = open('n4batts.csv', 'w')
+outfile = StringIO()
 outfile.write('serialnumber,netcode,lookupcode,ondate\n')
 for one_install in j['data']:
     for equip in j['included']: 
@@ -96,12 +78,13 @@ for one_install in j['data']:
             s = site
     print(e['attributes']['serialnumber'], s['attributes']['netcode'], s['attributes']['lookupcode'], one_install['attributes']['ondate'])
     outfile.write(f"{e['attributes']['serialnumber']},{s['attributes']['netcode']},{s['attributes']['lookupcode']},{one_install['attributes']['ondate']}\n")
-outfile.close()
+#outfile.close()
 #############
 
 #############
 # Read KML file containing list of N4 stations
 # did we have to edit this header like we did for the RT kml? don't remember.
+# shouldn't need to change the list of N4 sites - unlikely we will add or close any in the near future.
 kml_file = 'kml/N4_2020-09.kml'
 myfile = open(kml_file, 'r')
 kmldoc = myfile.read()
@@ -150,7 +133,10 @@ label = styles.LabelStyle(scale=0.5, color='white')
 # Read list of battery info obtained from API (or, in previous versions, from CSV downloaded from SIS)
 # Loop over features in KML, write info to pop-up balloon, and apply color scheme based on age
 
-df = pd.read_csv('n4batts.csv', dtype={'lookupcode':'str'})
+#df = pd.read_csv('n4batts.csv', dtype={'lookupcode':'str'})
+outfile.seek(0)
+df = pd.read_csv(outfile, dtype={'lookupcode':'str'})
+outfile.close()
 #dateformat = "%Y-%m-%d (%j) %H:%M:%S" # format if using CSV downloaded from SIS search results page
 dateformat = "%Y-%m-%dT%H:%M:%SZ" # format for results written from SIS API without applying any date formatting
 df ['ondate'] = pd.to_datetime(df['ondate'], format=dateformat)
@@ -192,6 +178,7 @@ for j in i.features():
         j.visibility = 0
     print(j.styleUrl, battery_age_yr)
 
+# Write info to text balloon and create link to SIS page for station
     j.description = f"Battery age: {battery_age_yr:.1f} yr"
     for style in j.styles():
         for s in style.styles():
