@@ -116,9 +116,11 @@ for j in i.features():
     if len(df1) == 0:
         logfile.write(j.name + '\n')
         battery_age_yr = 999
+        install_date = 'Unknown'
     else:
         battery_age = dt.datetime.utcnow() - df1['ondate'].drop_duplicates().iloc[0]
         battery_age_yr = battery_age.days/365
+        install_date = df1['ondate'].drop_duplicates().iloc[0].strftime("%Y-%m-%d")
 
     if battery_age_yr > 900:
         color='white'
@@ -134,17 +136,17 @@ for j in i.features():
         j.styleUrl = 'green'
         j.visibility = 0
     print(j.styleUrl, battery_age_yr)
-    j.description = f'Battery age: {battery_age_yr:.1f} yr'
+    j.description = f"Battery age: {battery_age_yr:.1f} yr"
     for style in j.styles():
         for s in style.styles():
-#            print(s)
-##            s.text = f"Battery age: {battery_age_yr:.1f} yr <br> <br> <a href='https://anss-sis.scsn.org/sis/sites/monepoch/latest/?lookupcode_q=$[station]'>SIS</a><br> <br> <a href='https://igskgacgvmweb01.cr.usgs.gov/rt/Search/Simple.html?q=$[station]'>RT Tickets</a><br> <br> <a href='https://igskgacgvmweb01.cr.usgs.gov/rt/Search/Results.html?Format=%27%3Cb%3E%3Ca+href%3D%22__WebPath__%2FTicket%2FDisplay.html%3Fid%3D__id__%22%3E__id__%3C%2Fa%3E%3C%2Fb%3E%2FTITLE%3A%23%27%2C%0A%27%3Cb%3E%3Ca+href%3D%22__WebPath__%2FTicket%2FDisplay.html%3Fid%3D__id__%22%3E__Subject__%3C%2Fa%3E%3C%2Fb%3E%2FTITLE%3ASubject%27%2C%0AStatus%2C%0AQueueName%2C%0AOwner%2C%0APriority%2C%0A%27__NEWLINE__%27%2C%0A%27__NBSP__%27%2C%0A%27%3Csmall%3E__Requestors__%3C%2Fsmall%3E%27%2C%0A%27__Created__%27%2C%0A%27%3Csmall%3E__CreatedRelative__%3C%2Fsmall%3E%27%2C%0A%27%3Csmall%3E__LastUpdatedRelative__%3C%2Fsmall%3E%27&Order=DESC%7CASC%7CASC%7CASC&OrderBy=LastUpdated%7C%7C%7C&Page=&Query=%28+Subject+LIKE+%27$[station]%27+%29+AND+%28++Status+%3D+%27open%27+OR+Status+%3D+%27new%27+OR+Status+%3D+%27stalled%27+%29&RowsPerPage=50&SavedChartSearchId=new&SavedSearchId='>RT Tickets - Unresolved</a><br>"
-
-                      # <a href='https://anss-sis.scsn.org/sis/sites/monepoch/latest/?lookupcode_q=$[station]'>SIS</a><br> \
-            s.text = f"Battery age: {battery_age_yr:.1f} yr <br>  \
-                      <a href='https://anss-sis.scsn.org/sis/find/?lookup=$[station]'>SIS</a><br> \
-                      <a href='https://igskgacgvmweb01.gs.doi.net/rt/Search/Results.html?Query=%28+Subject+LIKE+%27$[station]%27+%29+AND+%28++Status+%3D+%27open%27+OR+Status+%3D+%27new%27+OR+Status+%3D+%27stalled%27+%29'>RT Tickets - Unresolved</a><br> \
-                      <a href='https://igskgacgvmweb01.gs.doi.net/rt/Search/Simple.html?q=$[station]'>RT Tickets - All</a><br> "
+            s.text = f"<h2> {net}.{sta}</h2> \
+                      Battery age: {battery_age_yr:.1f} yr <br>  \
+                      Batteries installed: {install_date} <br> \
+                      <a href='https://anss-sis.scsn.org/sis/find/?lookup=$[station]'>SIS page for {net} {sta}</a><br> "
+#            s.text += "<a href='https://igskgacgvmweb01.gs.doi.net/rt/Search/Results.html?Query=%28+Subject+LIKE+%27$[station]%27+%29+AND+%28++Status+%3D+%27open%27+OR+Status+%3D+%27new%27+OR+Status+%3D+%27stalled%27+%29'>RT Tickets - Unresolved</a><br>"
+#            s.text += "<a href='https://igskgacgvmweb01.gs.doi.net/rt/Search/Simple.html?q=$[station]'>RT Tickets - All</a><br> "
+            s.text += f"<table width =\"200\"><tr><h2> </h2></tr>"
+            s.text += "</table>"
 # N drive (not there yet...)
 # example for a local file
 #                      <a href='file:///Users/ewolin/Downloads/wolin_ridgecrest_cablefix.jpg'>N Drive</a><br>"
