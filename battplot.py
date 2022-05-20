@@ -41,20 +41,23 @@ fig.savefig('n4batts_bystn.png')
 fig, ax = plt.subplots()
 
 
+print('------')
 for f in df3.groupby(df3["ondate"].dt.year):
     print(f[1].reset_index(drop=True, inplace=True))
     print(f[0])
     color='black'
     yr=2022
     for i in range(len(f[1])): 
-        if f[0] <= yr-6.5:
+        if f[0] <= yr-7:
             color='red'
-        elif f[0] < yr-4 and f[0] > yr-6.5:
+        elif f[0] < yr-5 and f[0] > yr-7:
             color='orange'
         else:
             color='green'
         ax.text(f[0], i, f[1].iloc[i]["lookupcode"], ha='center', va='bottom', color=color) 
 #        print(ax.text(f[0], i, f[1].iloc[i]["lookupcode"])) 
+
+ax.fill_between([2008,2023],[20,20],[30,30], color='grey', alpha=0.5)
 
 ax.set_xlim(2008,2023)
 #ax.set_ylim(0,35)
