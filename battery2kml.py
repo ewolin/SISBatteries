@@ -20,21 +20,110 @@ import pandas as pd
 import datetime as dt
 
 import time
+import json
+import configparser
+import requests
+#from cryptography.fernet import Fernet
 
 
+#def load_key():
+#    """
+#    Loads the key from the current directory named `key.key`
+#    """
+#    return open("key.key", "rb").read()
 
-#kml_file = 'small_network_example.kml'
+
+#authfile = open('sisauth.txt', 'rb')
+#enc = authfile.read()
+#authfile.close()
+#
+#key = load_key()
+#print(key)
+#f = Fernet(key)
+
+#dec = f.decrypt(enc).decode().split()
+#un = dec[0]
+#pw = dec[1]
+
+config = configparser.ConfigParser()
+config.read('config.ini')
+un =  config['RT']['user']
+pw =  config['RT']['pwd']
+
+
+payload = {'username': un,   
+           'password': pw,}   # do not save this in the file, read it from a protected config file. 
+#############
+# Log into SIS
+sisinstance = 'sis' # will be "sis" in case of production 
+baseurl = 'https://anss-sis.scsn.org/{0}'.format(sisinstance)
+loginurl = '{0}/api/v1/token/auth'.format(baseurl)
+print(loginurl)
+r = requests.post(loginurl, data=payload)#, verify=False)
+r.raise_for_status()    # Check if response is valid. Handle error
+#print ('response:', r.json())
+token = r.json()['token']
+#print ('token:', token)
+#############
+
+#############
+# Create and send request
+# Set the token in the request header
+auth_header = {"Authorization": "Bearer {0}".format(token),}
+
+params = {
+    "category": 'Battery',
+#    "netcode":"US,NE,N4,IW",
+    "netcode":"N4",
+    "isactive":"y",
+    "page[size]":10000,
+    "sort":"ondate"
+}
+
+# Send request to a SIS webservice endpoint.
+url = '{0}/api/v1/equipment-installations'.format(baseurl)
+r = requests.get(url, headers=auth_header, params=params, verify=False)
+r.raise_for_status()
+print ('\n', r.text)
+#############
+
+#############
+# Parse returned text, then
+# loop over returned text to create a table of battery serial number, net and station code, and installation date
+# maybe we could write this to a StringIO like object instead of to disk? can figure out later, this works for now
+j = json.loads(r.text)
+
+outfile = open('n4batts.csv', 'w')
+outfile.write('serialnumber,netcode,lookupcode,ondate\n')
+for one_install in j['data']:
+    for equip in j['included']: 
+        if equip['type'] == 'Equipment' and equip['id'] == one_install['relationships']['equipment']['data']['id']: 
+            e = equip
+    for site in j['included']: 
+        if site['type'] == 'SiteEpoch' and site['id'] == one_install['relationships']['siteepoch']['data']['id']: 
+            s = site
+    print(e['attributes']['serialnumber'], s['attributes']['netcode'], s['attributes']['lookupcode'], one_install['attributes']['ondate'])
+    outfile.write(f"{e['attributes']['serialnumber']},{s['attributes']['netcode']},{s['attributes']['lookupcode']},{one_install['attributes']['ondate']}\n")
+outfile.close()
+#############
+
+#############
+# Read KML file containing list of N4 stations
+# did we have to edit this header like we did for the RT kml? don't remember.
 kml_file = 'N4_2020-09.kml'
-#kml_file = 'US_2020-09.kml'
-#kml_file = 'N4_2021-01.kml'
 myfile = open(kml_file, 'r')
 kmldoc = myfile.read()
 k = kml.KML()
-#k.from_string(kmldoc)
 k.from_string(kmldoc.encode('utf-8'))
+features = list(k.features())
+doc = features[0]
+for i in doc.features(): # there should only be one Feature at this level - a Folder object, which in turn contains all of the station Features
+    print(i)
+#############
 
 
-
+#############
+# Create new KML document containing 2 subfolders
 k_new = kml.KML()
 doc_new = kml.Document()
 k_new.append(doc_new)
@@ -42,25 +131,15 @@ f_new = kml.Folder(name='BattsOK')
 doc_new.append(f_new)
 f_old = kml.Folder(name='BattsOld')
 doc_new.append(f_old)
+netname = kml_file.split('_')[0]
+doc_new.name=f'{netname}_battery_age'
+#############
 
 
-features = list(k.features())
-doc = features[0]
 
+#############
+# Define styles: use an open circle (donut) so it works nicely with solid circles from RT KML
 donut = 'http://maps.google.com/mapfiles/kml/shapes/donut.png'
-#icon = styles.IconStyle(scale=5, color='7f0080ff', icon_href=donut) 
-#newstyle = styles.Style(id='orange', styles=[icon])
-#doc.append_style(newstyle)
-
-# failed attempt at making one BalloonStyle for all
-# I think this fails bc the original KML already has balloon styles defined
-# I think I could get around this by creating new elements instead of modifying existing ones
-# but for now we'll just edit the BalloonStyle already present for each station
-# ns=None, id=None, bgColor=None, textColor=None, text=None, displayMode=None
-#balloon_text = "<a href='https://anss-sis.scsn.org/sis/sites/monepoch/latest/?lookupcode_q=$[station]'>SIS</a><br> \
-#               <a href='https://igskgacgvmweb01.cr.usgs.gov/rt/Search/Results.html?Query=%28+Subject+LIKE+%27$[station]%27+%29+AND+%28++Status+%3D+%27open%27+OR+Status+%3D+%27new%27+OR+Status+%3D+%27stalled%27+%29'>RT Tickets - Unresolved</a><br>"
-#balloonstyle = styles.BalloonStyle(textColor='ff000000', text=balloon_text, displayMode="default")
-
 color_dict = {'red': '7f0000ff',
               'orange': '7f0080ff', 
               'yellow': '7f00ffff',
@@ -70,36 +149,22 @@ color_dict = {'red': '7f0000ff',
 for stylename, color in color_dict.items():
     icon = styles.IconStyle(scale=2, color=color, icon_href=donut) 
     newstyle = styles.Style(id=stylename, styles=[icon])
-#    newstyle = styles.Style(id=stylename, styles=[icon, balloonstyle])
-#    line = styles.LineStyle(color=color, width=2)
-#    poly = styles.PolyStyle(color=color)
-#    newstyle = styles.Style(id=stylename, styles=[icon, label, poly, line])
     doc_new.append_style(newstyle)
+label = styles.LabelStyle(scale=0.5, color='white')
+#############
 
 
-
-#doc.name='N4_battery_age'
-netname = kml_file.split('_')[0]
-doc.name=f'{netname}_battery_age'
-
-for i in doc.features():
-
-    print(i)
-
+#############
+# Read list of battery info obtained from API (or, in previous versions, from CSV downloaded from SIS)
+# Loop over features in KML, write info to pop-up balloon, and apply color scheme based on age
 
 df = pd.read_csv('n4batts.csv', dtype={'lookupcode':'str'})
-#df = pd.read_csv('all_asl_batts.csv', dtype={'lookupcode':'str'})
-#df ['ondate'] = pd.to_datetime(df['ondate'], format='%Y-%m-%d (%j) %H:%M:%S') # format for CSV downloaded from SIS search results page
-df ['ondate'] = pd.to_datetime(df['ondate'], format='%Y-%m-%dT%H:%M:%SZ') # format for results from SIS API without applying any date formatting
+#dateformat = "%Y-%m-%d (%j) %H:%M:%S" # format if using CSV downloaded from SIS search results page
+dateformat = "%Y-%m-%dT%H:%M:%SZ" # format for results written from SIS API without applying any date formatting
+df ['ondate'] = pd.to_datetime(df['ondate'], format=dateformat)
 df.sort_values(by='ondate')
 
-logfile = open('noinfo.txt', 'w')
-
-
-label = styles.LabelStyle(scale=0.5, color='white')
-
-
-
+# the one Folder in our KML contains a Feature for each station
 for j in i.features():
     print(j.name)
     net = j.name.split('.')[0]
@@ -109,12 +174,10 @@ for j in i.features():
     print(len(df1))
 
 
-    ext_data = kml.Data(name='station', value=sta) 
-    ext_dat2 = kml.Data(name='network', value=net) 
-    j.extended_data = kml.ExtendedData(elements=[ext_data, ext_dat2])
-
+# Some N4 sites were adopted by other agencies or universities, but continue running under the N4 net code.
+# For these sites, we may not have battery info.  
+# Color them white on the map and label appropriately.
     if len(df1) == 0:
-        logfile.write(j.name + '\n')
         battery_age_yr = 999
         install_date = 'Unknown'
     else:
@@ -136,35 +199,34 @@ for j in i.features():
         j.styleUrl = 'green'
         j.visibility = 0
     print(j.styleUrl, battery_age_yr)
+
     j.description = f"Battery age: {battery_age_yr:.1f} yr"
     for style in j.styles():
         for s in style.styles():
             s.text = f"<h2> {net}.{sta}</h2> \
                       Battery age: {battery_age_yr:.1f} yr <br>  \
                       Batteries installed: {install_date} <br> \
-                      <a href='https://anss-sis.scsn.org/sis/find/?lookup=$[station]'>SIS page for {net} {sta}</a><br> "
-#            s.text += "<a href='https://igskgacgvmweb01.gs.doi.net/rt/Search/Results.html?Query=%28+Subject+LIKE+%27$[station]%27+%29+AND+%28++Status+%3D+%27open%27+OR+Status+%3D+%27new%27+OR+Status+%3D+%27stalled%27+%29'>RT Tickets - Unresolved</a><br>"
-#            s.text += "<a href='https://igskgacgvmweb01.gs.doi.net/rt/Search/Simple.html?q=$[station]'>RT Tickets - All</a><br> "
+                      <a href='https://anss-sis.scsn.org/sis/find/?lookup={sta}'>SIS page for {net} {sta}</a><br> "
             s.text += f"<table width =\"200\"><tr><h2> </h2></tr>"
             s.text += "</table>"
-# N drive (not there yet...)
+
+# N drive: this works for Macs, but not sure how to make it Windows-compatible yet, so I won't write it out to the file. 
 # example for a local file
-#                      <a href='file:///Users/ewolin/Downloads/wolin_ridgecrest_cablefix.jpg'>N Drive</a><br>"
+#            s.text += f"<a href='file:///Volumes/aslcommon/Station Documents/N4_network/N4 Site Info/{sta}'>N4.{sta} on N Drive</a><br>"
+#            s.text += "hint: if file browser window does not open, right-click and select Copy Link, then open in Finder, Windows Explorer, or a web browser<br>" 
 
-# all RT tickets (simple search by station):
-#             
-
-#    j.extended_data = 'hello'
-#print(k.to_string(prettyprint=True))
         j._styles[0].append_style(label)
 
+# Make old batteries (orange/red) visible by default; hide new batteries (green).
     if j.visibility == 0:
         f_new.append(j)
     else:
         f_old.append(j)
+#############
 
-outfile = open(f'{doc.name}.kml', 'w')
-#outfile.write(k.to_string(prettyprint=True))
+#############
+# Write new KML file and we're done!
+outfile = open(f'{doc_new.name}.kml', 'w')
 outfile.write(k_new.to_string(prettyprint=True))
 outfile.close()
-print(f"wrote {doc.name}.kml")
+print(f"wrote {doc_new.name}.kml")
