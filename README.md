@@ -1,7 +1,9 @@
 # SISBatteries
 Get battery info from SIS; make a KML and some plots to help with maintenance planning.
 
-Requires a SIS login and a Python environment with [fastkml](https://fastkml.readthedocs.io/en/latest/) installed.  I like to use conda for this.
+Users should download N4BatteryAge_link.kml and open it in Google Earth.  This KML will sync with the linked file on a specified interval.
+
+Running the code requires a SIS login and a Python environment with [fastkml](https://fastkml.readthedocs.io/en/latest/) installed.  I like to use conda for this.
 
 Using SIS API to retrieve battery info is a to-do. For now, you must download a CSV yourself and rename it to n4batts.csv:
 
