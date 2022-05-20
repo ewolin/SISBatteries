@@ -124,7 +124,7 @@ doc_new.append(f_new)
 f_old = kml.Folder(name='BattsOld')
 doc_new.append(f_old)
 netname = kml_file.split('_')[0]
-doc_new.name=f'kml/{netname}_battery_age'
+doc_new.name=f'kml/N4_battery_age'
 #############
 
 
