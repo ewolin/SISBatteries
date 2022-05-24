@@ -5,18 +5,15 @@ Users should download kml/N4BatteryAge_link.kml and open it in Google Earth.  Th
 
 Running the code requires a SIS login and a Python environment with [fastkml](https://fastkml.readthedocs.io/en/latest/) installed.  I like to use conda for this.
 
-The battery2kml.py script uses the SIS API to retrieve battery info. 
+The file sisutils.py contains a few simple functions that log a user into SIS, create an API query, and parse the returned text. These are in a separate file primarily to keep the other scripts focused on generating KMLs or plots.
 
-To supply your SIS login credentials: Create a copy of config.ini.example named config.ini. Enter your SIS username and password. This file will be read by battery2kml.py.
+To supply your SIS login credentials: Create a copy of config.ini.example named config.ini. Enter your SIS username and password. This file will be read by the loginSIS function in sisutils.py.
 
-Battery info from SIS is added to the KML to produce an interactive map: 
+battery2kml.py obtains battery info from SIS and adds it to a pre-existing KML to produce an interactive map: 
 ![screenshot from Google Earth showing battery status KML](ExampleFiles/battery_map_example.jpg)
 
 
-
-To-do: Update battplot.py to use the same call to the API!!  Right now it still relies on the existence of n4batts.csv.
-
-battplot.py reads the same CSV and plots batteries by the year they were installed.
+battplot.py uses the same sisutils functions to query SIS. It makes a few plots, including a histogram showing the most recent battery swap at each station. 
 ![histogram of year N4 batteries were installed](https://github.com/ewolin/SISBatteries/blob/main/ExampleFiles/text.png)
 
 
