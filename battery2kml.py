@@ -17,69 +17,18 @@ import datetime as dt
 
 
 
-#############
-# Read config file with login info
-config = configparser.ConfigParser()
-config.read('config.ini')
-un =  config['RT']['user']
-pw =  config['RT']['pwd']
-payload = {'username': un,   
-           'password': pw,}   # do not save this in the file, read it from a protected config file. 
-#############
+from sisutils import loginSIS, getEquipmentInstallations, extractBatteryInfo
 
-#############
-# Log into SIS
-sisinstance = 'sis' # will be "sis" in case of production 
-baseurl = 'https://anss-sis.scsn.org/{0}'.format(sisinstance)
-loginurl = '{0}/api/v1/token/auth'.format(baseurl)
-print(loginurl)
-r = requests.post(loginurl, data=payload)#, verify=False)
-r.raise_for_status()    # Check if response is valid. Handle error
-#print ('response:', r.json())
-token = r.json()['token']
-#print ('token:', token)
-#############
 
-#############
-# Build and send request
-# Set the token in the request header
-auth_header = {"Authorization": "Bearer {0}".format(token),}
-params = {
-    "category": 'Battery',
-#    "netcode":"US,NE,N4,IW",
-    "netcode":"N4",
-    "isactive":"y",
-    "page[size]":10000,
-    "sort":"ondate"
-}
+# Send request to SIS API and parse returned text
+token = loginSIS()
 
-# Send request to a SIS webservice endpoint.
-url = '{0}/api/v1/equipment-installations'.format(baseurl)
-r = requests.get(url, headers=auth_header, params=params, verify=False)
-r.raise_for_status()
-print ('\n', r.text)
-#############
+requesttext = getEquipmentInstallations(token, category="Battery", netcode="N4", isactive="y", pagesize="10000", sort="ondate")
 
-#############
-# Parse returned text, then
-# loop over returned text to create a table of battery serial number, net and station code, and installation date
-# maybe we could write this to a StringIO like object instead of to disk? can figure out later, this works for now
-j = json.loads(r.text)
+outfile = extractBatteryInfo(requesttext)
 
-#outfile = open('n4batts.csv', 'w')
-outfile = StringIO()
-outfile.write('serialnumber,netcode,lookupcode,ondate\n')
-for one_install in j['data']:
-    for equip in j['included']: 
-        if equip['type'] == 'Equipment' and equip['id'] == one_install['relationships']['equipment']['data']['id']: 
-            e = equip
-    for site in j['included']: 
-        if site['type'] == 'SiteEpoch' and site['id'] == one_install['relationships']['siteepoch']['data']['id']: 
-            s = site
-    print(e['attributes']['serialnumber'], s['attributes']['netcode'], s['attributes']['lookupcode'], one_install['attributes']['ondate'])
-    outfile.write(f"{e['attributes']['serialnumber']},{s['attributes']['netcode']},{s['attributes']['lookupcode']},{one_install['attributes']['ondate']}\n")
-#outfile.close()
-#############
+
+
 
 #############
 # Read KML file containing list of N4 stations
@@ -134,7 +83,7 @@ label = styles.LabelStyle(scale=0.5, color='white')
 # Loop over features in KML, write info to pop-up balloon, and apply color scheme based on age
 
 #df = pd.read_csv('n4batts.csv', dtype={'lookupcode':'str'})
-outfile.seek(0)
+
 df = pd.read_csv(outfile, dtype={'lookupcode':'str'})
 outfile.close()
 #dateformat = "%Y-%m-%d (%j) %H:%M:%S" # format if using CSV downloaded from SIS search results page
