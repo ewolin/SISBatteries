@@ -5,11 +5,6 @@ import matplotlib.pyplot as plt
 import datetime as dt
 
 
-# NOTE May 20 2022:
-# this script still relies on the existence of n4batts.csv
-# consider factoring out the part of battery2kml that calls the SIS API
-# and use that for input to this script as well?
-
 
 # IMPORTANT NOTE: we use 'ondate' for now (Epoch start date) instead of install date
 # This is because I had to adjust the install date of pre-2013 batteries to pass XML validation.
