@@ -14,6 +14,7 @@ from io import StringIO
 
 import pandas as pd
 import datetime as dt
+import matplotlib.pyplot as plt
 
 
 
@@ -152,9 +153,48 @@ for j in i.features():
         f_old.append(j)
 #############
 
+# Create image file - legend
+# for image overlay
+fig, ax = plt.subplots(figsize=(1.5,1))
+ax.text(0.2,0.8, 'Battery Age', color='black', transform=ax.transAxes, va='center', weight='bold')
+labels = ['≤5 years old', '5-7 years old', '≥7 years old' ]
+colors = ['green', 'orange', 'red']
+n = 1
+for label, color in zip(labels, colors):
+    y = n * 0.2
+    ax.text(0.3,y, label, color=color, transform=ax.transAxes, va='center')
+    ax.plot(0.15,y,marker='o',markersize=10,mfc=color, transform=ax.transAxes, mec='lightgray') 
+    ax.plot(0.15,y,marker='o',markersize=5,mfc='white', mec='lightgray', transform=ax.transAxes) 
+    n += 1
+ax.set_axis_off()
+fig.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=0, hspace=0)
+fig.savefig('kml/legend.png')
+
 #############
-# Write new KML file and we're done!
+# Write new KML file 
 outfile = open(f'{doc_new.name}.kml', 'w')
-outfile.write(k_new.to_string(prettyprint=True))
+# As of May 2022, the fastkml library does not support creating or writing ScreenOverlay objects
+# so to include a legend, we'll just insert the appropriate xml string
+# right before the end of the Document...
+# modified from https://developers.google.com/kml/documentation/kmlreference?csw=1#screenoverlay
+#outfile.write(k_new.to_string(prettyprint=True))
+outstring = k_new.to_string(prettyprint=True)
+start, end = outstring.split("</Document>")
+overlay_string = '''
+<ScreenOverlay id="ScreenOverlay001">
+	<name>Legend</name>
+	<Icon>
+	<href>legend.png</href>
+	</Icon>
+	<overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+	<screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+	<rotation>0</rotation>
+	<size x="0" y="0" xunits="pixels" yunits="pixels"/>
+</ScreenOverlay> '''
+start += (overlay_string)
+start += ("\n</Document>\n</kml>\n")
+outfile.write(start)
+
+
 outfile.close()
 print(f"wrote {doc_new.name}.kml")
