@@ -155,14 +155,14 @@ for j in i.features():
 
 # Create image file - legend
 # for image overlay
-fig, ax = plt.subplots(figsize=(1.5,1))
-ax.text(0.2,0.8, 'Battery Age', color='black', transform=ax.transAxes, va='center', weight='bold')
-labels = ['≤5 years old', '5-7 years old', '≥7 years old' ]
-colors = ['green', 'orange', 'red']
+fig, ax = plt.subplots(figsize=(2.25,1))
+ax.text(0.1,0.8, 'Battery Age', color='black', transform=ax.transAxes, va='center', weight='bold')
+labels = ['Unknown', 'Less than 5 years old', '5-7 years old', 'More than 7 years old' ]
+colors = ['grey', 'green', 'orange', 'red']
 n = 1
 for label, color in zip(labels, colors):
-    y = n * 0.2
-    ax.text(0.3,y, label, color=color, transform=ax.transAxes, va='center')
+    y = n * 0.15
+    ax.text(0.25,y, label, color=color, transform=ax.transAxes, va='center')
     ax.plot(0.15,y,marker='o',markersize=10,mfc=color, transform=ax.transAxes, mec='lightgray') 
     ax.plot(0.15,y,marker='o',markersize=5,mfc='white', mec='lightgray', transform=ax.transAxes) 
     n += 1
