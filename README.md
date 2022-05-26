@@ -1,7 +1,9 @@
 # SISBatteries
 Get battery info from SIS; make a KML and some plots to help with maintenance planning.
 
-Users should download kml/N4BatteryAge_link.kml and open it in Google Earth.  This KML will sync with the linked file on a specified interval.
+battery2kml.py creates the output file kml/N4_battery_age.kml and kml/legend.png.
+
+For operational use:  Users should download kml/N4BatteryAge_link.kml and open it in Google Earth.  kml/N4_battery_age.kml should be hosted on a server that can run a cron job to update it periodically (probably every night).  The link KML will sync with the updated file on a specified interval.
 
 Running the code requires a SIS login and a Python environment with [fastkml](https://fastkml.readthedocs.io/en/latest/) installed.  I like to use conda for this.
 
