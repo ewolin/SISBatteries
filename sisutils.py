@@ -51,7 +51,6 @@ def getEquipmentInstallations(token, category="Battery", netcode="*", isactive="
     url = '{0}/api/v1/equipment-installations'.format(baseurl)
     r = requests.get(url, headers=auth_header, params=params, verify=False)
     r.raise_for_status()
-    print ('\n', r.text)
     return(r.text)
 #############
 

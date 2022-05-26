@@ -64,8 +64,6 @@ print('------')
 year_now = dt.datetime.utcnow()
 year_int = int(dt.datetime.utcnow().strftime("%Y"))
 for install_year, battlist in df3.groupby(df3["ondate"].dt.year):
-    print(battlist.reset_index(drop=True, inplace=True))
-    print(install_year)
     color='black'
     for i in range(len(battlist)): 
         install_dt = battlist.iloc[i]['ondate']
@@ -85,7 +83,7 @@ min_year = df3['ondate'].min().year
 
 # Average number of batteries needed to replace each year: between 20 and 30
 
-ax.fill_between([min_year,year_int+1],[20,20],[30,30], color='grey', alpha=0.1)
+ax.fill_between([min_year-1,year_int+1],[20,20],[30,30], color='grey', alpha=0.1)
 
 ax.set_xlim(min_year-1,year_int+1)
 ax.set_ylim(0,65)
